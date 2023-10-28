@@ -15,15 +15,7 @@ def encoder():
 
 
 def decoder(encode_pass):
-    decode_pass = ''
-    for num in encode_pass:
-        if int(num) <= 2:
-            convert = str(int(num) + 7)
-            decode_pass = decode_pass + convert
-        else:
-            decode_pass = decode_pass + str(int(num) -3)
-    print(decode_pass)
-
+    pass
 
 if __name__ == '__main__':
     menu = True
